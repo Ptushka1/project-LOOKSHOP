@@ -1,0 +1,502 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Css recipes and layouts</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="">
+	<meta name="Keywords" content="">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+	<header class="header">
+		<div class = "header__head">
+			<div class="wrapper">
+				<div class="head__contact">
+					<p class="head__contact__text">custom care: 888-23-4567</p>
+				</div>
+				<div class="head__nav">
+					<select class="head__nav__currency--select">
+						<option> $ us</option>
+						<option> ru</option>
+						<option> bel</option>
+
+					</select>
+
+					<div class="head__nav__account">
+						<p>my account</p>
+					</div>
+					<div class="head__nav__search">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="header__main__menu">
+				<div class="logo header__logo">
+					<img class="header__logo__img" src="img/logo.png" alt="logo">
+				</div>
+				<div class="logo-mobile">
+		            <p><img src="img/header-logo-mobile.png" alt="logo"></p>
+		        </div>
+
+					<div class="menu__adaptive"><p>Menu</p><span></span></div>
+					<nav class="main__menu__nav">
+						<a href='#' class="nav__link">new</a>
+						<a href='#' class="nav__link">designers</a>
+						<a href='#' class="nav__link">women</a>
+						<a href='#' class="nav__link">men</a>
+						<a href='#' class="nav__link">clearence</a>
+					</nav>
+					<div class ="header__cart">
+						<select class="header__cart--select">
+								<option>Yuor cart</option>
+								<option>Yuor items</option>
+								<option>Yuor cart</option>
+
+						</select>
+						<div class="header__cart__items" >
+							<p class="header__cart__item line">0 items</p>
+							<p class="header__cart__item dollar">0</p>
+						</div>
+			        </div>
+			   <!--  </section> -->
+		    </div>
+		</div>
+
+		<div class="wrapper">
+
+		</div>
+
+	</header>
+
+		<main class="main">
+
+			<section class="slider">
+				<button class="slider__arrow left"> </button>
+				<div class="slider__slide">
+					<div class="slider__slide__text">
+						<div class="slide__text">
+							<p class="slide__text__title">Crazy</p>
+							<p class="slide__text__heading">crazy summer</p>
+							<p class="slide__text__heading__line"></p>
+							<p class="slide__text__description">woman collection</p>
+							<div class="button slider__block"> <p class="button--restangle slider__text">shop now</p> </div>
+						</div>
+
+					</div>
+					<img src="img/slider-model.png" alt="slider-model">
+				</div>
+				<button class="slider__arrow left"> </button>
+			</section>
+
+			<div class="wrapper">
+				<div class="slider__controls">
+					<input type="radio" name="slider1" id="slider1_1">
+				    <label for="slider1_1"></label>
+
+				    <input type="radio" name="slider1" id="slider1_2"  checked="checked">
+				    <label for="slider1_2"></label>
+
+				    <input type="radio" name="slider1" id="slider1_3">
+				    <label for="slider1_3"></label>
+
+				    <input type="radio" name="slider1" id="slider1_4">
+				    <label for="slider1_4"></label>
+
+				    <input type="radio" name="slider1" id="slider1_5">
+				    <label for="slider1_5"></label>
+				</div>
+		 	</div>
+
+		 	<section class="subscribtion__panel">
+		 		<div class="wrapper">
+		 			<div class="subscribtion__panel__email">
+		 				<label for="email">Stay updated</label><input class=" input subscribtion__panel-input" type="email" id="email" autocomplete= "on" required placeholder="Your email address">
+		 				<div class="button subscribtion__button"> <p class="button--figure"></p> </div>
+		 			</div>
+		 			<div class="subscribtion__panel__social">
+		 				<p class="panel__social__text">Fined is here </p>
+		 				<p class="panel__social__icons fb"> </p>
+		 				<p class="panel__social__icons tw"> </p>
+		 				<p class="panel__social__icons pn"> </p>
+
+		 			</div>
+		 		</div>
+		 	</section>
+
+			<section class="collections">
+				<div class="wrapper">
+					<img class="collection__img" src="img/collection-ipad.png" alt="collection">
+					<div class="collections__main">
+						<div class="collection__best__outfits">
+							<p class="best__outfits__top1">Best</p>
+							<p class="best__outfits__top2">outfits</p>
+							<p class="best__outfits__center"><span>&</span></p>
+							<p class="best__outfits__bottom">Looks</p>
+						</div>
+					</div>
+					<div class="collections__side">
+						<div class="collection__summer__party">
+							<div class="summer__party__circle__outer">
+								<div class="summer__party__circle__inner">
+									<p class="summer__party__text__top">Summer</p>
+									<p class="summer__party__text__center">Party</p>
+									<p class="summer__party__text__bottom">Collection</p>
+								</div>
+							</div>
+						</div>
+						<div class="collection__best__sellers">
+							<p  class="best__sellers__text">best sellers
+							<span class="best__sellers__text__arrow"></span>
+							</p>
+						</div>
+						<div class="collection__fall__leather">
+							<p  class="fall__leather__text">fall leather </p>
+							<div class="button fall__leather"> <p class="button--restangle fall__leather">shop now</p> </div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="carusel">
+				<div class="wrapper">
+					<div class="carusel__nav">
+						<div class="carusel__nav__tabs">
+							<div class="carusel__nav__tab active">
+								<a href="#one">What's Hot?</a>
+							</div>
+							<div class="carusel__nav__tab">
+								<a href="#two">Designers</a>
+							</div>
+							<div class="carusel__nav__tab">
+								<a href="#three">Featured</a>
+							</div>
+							<div class="carusel__nav__tab">
+								<a href="#four">Featured</a>
+							</div>
+						</div>
+						<div class="carusel__nav__arrows">
+							<div class="carusel__nav__arrow_left">
+								<span></span>
+							</div>
+							<div class="carusel__nav__arrow_right active">
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+					<div class="carusel__contents">
+						<div class="carusel__content one" id="one">
+
+							<div class="carusel__content__item one">
+								<div class="content__item__img one ">
+									<div class="item__img__mask"></div>
+								</div>
+
+								<div class="content__item_info">
+									<h3 class="item_info__heading">Mimosa lace dress</h3>
+									<p class="item_info__prace">$59.95</p>
+									<div class="button item__info">
+										<p class="button--restangle item__info">add to cart</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="carusel__content__item two">
+								<div class="content__item__img two ">
+									<div class="item__img__mask"></div>
+								</div>
+								<div class="content__item_info">
+									<h3 class="item_info__heading">Mimosa lace dress</h3>
+									<p class="item_info__prace">$59.95</p>
+									<div class="button item__info">
+										<p class="button--restangle item__info">add to cart</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="carusel__content__item three">
+								<div class="content__item__img three">
+									<div class="item__img__mask"></div>
+								</div>
+								<div class="content__item_info">
+									<h3 class="item_info__heading">Mimosa lace dress</h3>
+									<p class="item_info__prace">$59.95</p>
+									<div class="button item__info">
+										<p class="button--restangle item__info">add to cart</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="carusel__content__item four">
+								<div class="content__item__img four">
+									<div class="item__img__mask"></div>
+								</div>
+								<div class="content__item_info">
+									<h3 class="item_info__heading">Mimosa lace dress</h3>
+									<p class="item_info__prace">$59.95</p>
+									<div class="button item__info">
+										<p class="button--restangle item__info">add to cart</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="carusel__content__item five">
+								<div class="content__item__img five">
+									<div class="item__img__mask"></div>
+								</div>
+								<div class="content__item_info">
+									<h3 class="item_info__heading">Mimosa lace dress</h3>
+									<p class="item_info__prace">$59.95</p>
+									<div class="button item__info">
+										<p class="button--restangle item__info">add to cart</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="carusel__content__item six">
+								<div class="content__item__img six">
+									<div class="item__img__mask"></div>
+								</div>
+								<div class="content__item_info">
+									<h3 class="item_info__heading">Mimosa lace dress</h3>
+									<p class="item_info__prace">$59.95</p>
+									<div class="button item__info">
+										<p class="button--restangle item__info">add to cart</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="carusel__content__item seven">
+								<div class="content__item__img seven">
+									<div class="item__img__mask"></div>
+								</div>
+								<div class="content__item_info">
+									<h3 class="item_info__heading">Mimosa lace dress</h3>
+									<p class="item_info__prace">$59.95</p>
+									<div class="button item__info">
+										<p class="button--restangle item__info">add to cart</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="carusel__content__item eight">
+								<div class="content__item__img eight">
+									<div class="item__img__mask"></div>
+								</div>
+								<div class="content__item_info">
+									<h3 class="item_info__heading">Mimosa lace dress</h3>
+									<p class="item_info__prace">$59.95</p>
+									<div class="button item__info">
+										<p class="button--restangle item__info">add to cart</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+			</section>
+
+			<div class="clearance">
+				<div class="wrapper">
+					 <span> <img class="clearance__img" src="img/clearance.png" alt="clearance"></span>
+				</div>
+			</div>
+
+			<div class="wrapper">
+				<section class="carusel__content two__carusel">
+
+					<div class="carusel__content__item one">
+						<div class="content__item__img one ">
+							<div class="item__img__mask"></div>
+						</div>
+						<div class="content__item_info">
+							<h3 class="item_info__heading">Nadia dress</h3>
+							<p class="item_info__prace">$64.95</p>
+							<div class="button item__info">
+								<p class="button--restangle item__info">add to cart</p>
+							</div>
+						</div>
+					</div>
+
+						<div class="carusel__content__item two">
+							<div class="content__item__img two ">
+								<div class="item__img__mask"></div>
+							</div>
+							<div class="content__item_info">
+								<h3 class="item_info__heading">Sofi blouse</h3>
+								<p class="item_info__prace">$26.95</p>
+								<div class="button item__info">
+									<p class="button--restangle item__info">add to cart</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="carusel__content__item three">
+							<div class="content__item__img three">
+								<div class="item__img__mask"></div>
+							</div>
+							<div class="content__item_info">
+								<h3 class="item_info__heading">Gooding shorts</h3>
+								<p class="item_info__prace">$79.95</p>
+								<div class="button item__info">
+									<p class="button--restangle item__info">add to cart</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="carusel__content__item four">
+							<div class="content__item__img four">
+								<div class="item__img__mask"></div>
+							</div>
+							<div class="content__item_info">
+								<h3 class="item_info__heading">Mimosa lace dress</h3>
+								<p class="item_info__prace">$76</p>
+								<div class="button item__info">
+									<p class="button--restangle item__info">add to cart</p>
+								</div>
+							</div>
+						</div>
+				</section>
+			</div>
+			<section class="favourite__brands">
+				<div class="brands__heading__wrapper">
+					<span></span>
+					<h2 class="brands__heading">favourite brands</h2>
+					<span></span>
+				</div>
+				<div class="wrapper">
+					<img class="brands__img" src="img/br1.jpg" alt="">
+					<img class="brands__img" src="img/br2.jpg" alt="">
+					<img class="brands__img" src="img/br3.jpg" alt="">
+					<img class="brands__img" src="img/br4.jpg" alt="">
+					<img class="brands__img" src="img/br5.jpg" alt="">
+					<img class="brands__img" src="img/br6.jpg" alt="">
+					<img class="brands__img" src="img/br7.jpg" alt="">
+				</div>
+			</section>
+			<section class="article__shop">
+				<div class="wrapper">
+					<article class="article__shop__item">
+						<h3 class="article__shop__heading">About LookShop</h3>
+						<p class="article__shop__content">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
+					</article>
+				</div>
+			</section>
+			<div class="wrapper">
+				<div class="button--adaptive">
+					<p>learn more</p>
+				</div>
+			</div>	
+
+		</main>
+
+		<footer>
+		    <div class="payment-icons">
+		      <div class="wrapper">
+		        <div class="payment-icons__header">We accept</div>
+		        <div class="payment-icons__icon-block payment-icons__icon-block--va"></div>
+		        <div class="payment-icons__icon-block payment-icons__icon-block--mc"></div>
+		        <div class="payment-icons__icon-block payment-icons__icon-block--pp"></div>
+		        <div class="payment-icons__icon-block payment-icons__icon-block--ae"></div>
+		        <div class="payment-icons__icon-block payment-icons__icon-block--ve"></div>
+		        <div class="payment-icons__icon-block payment-icons__icon-block--lr"></div>
+		        <div class="payment-icons__icon-block payment-icons__icon-block--mo"></div>
+		        <div class="payment-icons__icon-block payment-icons__icon-block--da"></div>
+		        <div class="payment-icons__icon-block payment-icons__icon-block--xo"></div>
+		        <div class="payment-icons__icon-block payment-icons__icon-block--id"></div>
+		        <div class="payment-icons__icon-block payment-icons__icon-block--dk"></div>
+		      </div>
+		    </div>
+		    <div class="full-menu">
+		      <div class="wrapper">
+		        <div class="full-menu__block full-menu__block--basis66">
+							<div class="full-menu__column full-menu__column--25">
+			          <h4>Customer Service</h4>
+			          <ul>
+			            <li><a href="#">Contact</a></li>
+			            <li><a href="#">FAQ</a></li>
+			            <li><a href="#">Terms of payment</a></li>
+			            <li><a href="#">Terms of sale</a></li>
+			            <li><a href="#">Delivery terms and conditions</a></li>
+			            <li><a href="#">Returns and Refunds</a></li>
+			          </ul>
+			        </div>
+			        <div class="full-menu__column full-menu__column--25">
+			          <h4>Information</h4>
+			          <ul>
+			            <li><a href="#">Affiliate</a></li>
+			            <li><a href="#">Cookies</a></li>
+			            <li><a href="#">How to Shop</a></li>
+			            <li><a href="#">About Nelly</a></li>
+			            <li><a href="#">Investor relations</a></li>
+			          </ul>
+			        </div>
+			        <div class="full-menu__column full-menu__column--25">
+			          <h4>Campaigns</h4>
+			          <ul>
+			            <li><a href="#">Evening dresses</a></li>
+			            <li><a href="#">Makeup</a></li>
+			            <li><a href="#">Fashion forward</a></li>
+			            <li><a href="#">Training clothes</a></li>
+			            <li><a href="#">Special Occasion Dresses</a></li>
+			          </ul>
+			        </div>
+			        <div class="full-menu__column full-menu__column--25">
+			          <h4>Stores</h4>
+			          <ul>
+			            <li><a href="#">Paris</a></li>
+			            <li><a href="#">New York</a></li>
+			            <li><a href="#">London</a></li>
+			            <li><a href="#">Madrid</a></li>
+			            <li><a href="#">Tokio</a></li>
+			          </ul>
+			        </div>
+		        </div>
+						<div class="full-menu__block full-menu__block--basis33">
+							<div class="full-menu__column">
+			          <h4>Social</h4>
+			          <div class="full-menu__social-wrapper">
+			            <div class="full-menu__social-icons"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+			            <div class="full-menu__social-icons"><i class="fa fa-pinterest" aria-hidden="true"></i></div>
+			            <div class="full-menu__social-icons"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+			            <div class="full-menu__social-icons"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+			            <div class="full-menu__social-icons"><i class="fa fa-tumblr" aria-hidden="true"></i></div>
+			            <div class="full-menu__social-icons"><i class="fa fa-vimeo" aria-hidden="true"></i></div>
+			          </div>
+			        </div>
+			        <div class="full-menu__column full-menu__column-img">
+								<h4>100% secured</h4>
+			          <img src="img/secured-icon.png" alt="100% secured">
+			        </div>
+						</div>
+
+		      </div>
+		    </div>
+		    <nav>
+		      <div class="wrapper">
+		      	<div class="menu__adaptive menu__adaptive__footer"><span id="footer__menu"></span></div>
+		        <div class="footer__nav-bar" id="menu--active--footer">
+		          <ul>
+		            <li><a href="#">Privacy & Cookies</a></li>
+		            <li><a href="#">Terms & Conditions</a></li>
+		            <li><a href="#">Accessibility</a></li>
+		            <li><a href="#">Store Directory</a></li>
+		            <li><a href="#">About Us</a></li>
+		          </ul>
+		        </div>
+		        <div class="footer__copy-right">
+		          <p>&copy; LookShop.com</p>
+		          <p>All Rights Reserver</p>
+		        </div>
+		      </div>
+		    </nav>
+		</footer>
+
+
+
+</body>
+</html>
